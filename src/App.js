@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import Video from "./components/video/Video"
+import "./App.css"
+import TextPost1 from "./components/textPost/TextPost1"
+import TextPost2 from "./components/textPost/TextPost2"
+import TextPost3 from "./components/textPost/TextPost3"
+import Grid from '@mui/material/Grid';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Grid container className="App">
+        <Grid container item xs={12} justifyContent="center">
+          <TextPost1/>
+        </Grid>
+        <Grid container item xs={12} justifyContent="center">
+          <TextPost2/>
+        </Grid>
+        <Grid container item xs={12} justifyContent="center">
+          <TextPost3/>
+        </Grid>
+      </Grid>
     </div>
   );
 }
