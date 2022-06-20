@@ -3,23 +3,20 @@ import Grid from '@mui/material/Grid';
 import './textPost.css'
 import schema1 from './schema1.jpg'
 import {Accordion, AccordionSummary, AccordionDetails} from "@mui/material"
-import {ExpandMoreIcon} from "@mui/icons-material/ExpandMore"
 
 const TextPost1 = () => {
   return (
     <Grid item container lg={6}>
       <div className="post">
         <Accordion>
-          <AccordionSummary 
+          <AccordionSummary
           id="panel1-header" 
-          aria-controls="panel1-content" 
-          expandIcon={<ExpandMoreIcon/>}>
-            Coolness
-          </AccordionSummary>
-          <AccordionDetails>
+          aria-controls="panel1-content" >
             <h1>
               Schema Sketch #1: the Wizard, the King, and the Fool
             </h1>
+          </AccordionSummary>
+          <AccordionDetails>
             <img alt="schema1" width="300px" height="300px" src={schema1}/>
             <p>
               This is my initial sketch for the concept of the performance which I plan on calling “the Wizard, the King, and the Fool”. 
