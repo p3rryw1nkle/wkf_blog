@@ -8,11 +8,11 @@ export default function About() {
       <h1>About</h1>
       <p>
         This webpage is dedicated to an audivisual performance called "the Wizard, the King, and the Fool".
-        It was initiated as a practicum project for the McBride Honors program, in which I was tasked with designing
+        It was initiated as a practicum project for the McBride Honors program, where I was tasked with designing
         and conducting my own learning experience. In this learning experience I decided to combine my passions for 
         art, music, psychology, and philosophy and put together my first solo music performance with almost all original
         material. The Wizard, the King, & the Fool is a medieval theatre style psychological exploration, which inspired
-        by the work of psychologist Carl Jung, uses music and computer generated art amongst other mediums to channel, 
+        by the work of psychologist Carl Jung, uses music and AI generated art amongst other mediums to channel, 
         witness, and integrate the 'archetypes' of the 'collective unconscious' within myself (and hopefully
         inspire the audience to do the same).
       </p>
