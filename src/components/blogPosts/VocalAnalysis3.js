@@ -15,7 +15,7 @@ const VocalAnalysis3 = () => {
           <AccordionSummary
           id="panel1-header" 
           aria-controls="panel1-content">
-            <h1>
+            <h1 className="header">
               Vocal Analysis #3: The Controller
             </h1>
           </AccordionSummary>

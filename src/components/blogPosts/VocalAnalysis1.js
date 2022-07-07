@@ -7,7 +7,7 @@ import saveYourself from '../audio/firstPost/saveYourself1.wav';
 import zReplacement from '../audio/firstPost/z_replacement.wav';
 import guhs from '../audio/firstPost/guhs.m4a';
 
-const TextPost2 = () => {
+const VocalAnalysis1= () => {
   return (
     <Grid item container xs={10} lg={8}>
       <div className="post">
@@ -15,7 +15,7 @@ const TextPost2 = () => {
           <AccordionSummary
           id="panel1-header" 
           aria-controls="panel1-content">
-            <h1>
+            <h1 className="header">
               Vocal Analysis #1: Save Yourself
             </h1>
           </AccordionSummary>
@@ -86,4 +86,8 @@ const TextPost2 = () => {
   )
 }
 
-export default TextPost2
+VocalAnalysis1.displayName = "vocal";
+
+export default function Vocal1() {
+  return <VocalAnalysis1/>;
+}

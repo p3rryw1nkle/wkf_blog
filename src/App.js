@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import NavBar from "./components/navBar/navBar"
 import Blog from "./components/pages/Blog"
 import About from "./components/pages/About"
+import Review from "./components/pages/Review"
 // import background from "./components/images/manuscriptBackground.jpeg";
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
       case "/Blog":
         Component = Blog
         break
+        case "/Review":
+          Component = Review
+          break
       default:
         Component = About
   }  

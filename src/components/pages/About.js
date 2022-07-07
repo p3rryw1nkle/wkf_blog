@@ -4,10 +4,10 @@ import "./About.css"
 
 export default function About() {
   return (
-    <Grid>
+    <Grid container justifyContent="center" margin={10} display="flex">
       <h1>About</h1>
       <p>
-        This webpage is dedicated to an audivisual performance called "the Wizard, the King, and the Fool".
+            This webpage is dedicated to an audivisual performance called "the Wizard, the King, and the Fool".
         It was initiated as a practicum project for the McBride Honors program, where I was tasked with designing
         and conducting my own learning experience. In this learning experience I decided to combine my passions for 
         art, music, psychology, and philosophy and put together my first solo music performance with almost all original
@@ -23,31 +23,35 @@ export default function About() {
       <h3>
         Objectives:
       </h3>
-      <ol>
-        <li>
-          How is the “collective unconscious” revealed through artistic expression, and how can music be used to explore and integrate its archetypes within the conscious realm?
-        </li>
-        <li>
-          How to self-organize and promote a small, independent, electronic music performance?
-        </li>
-        <li>
-          How may singing skills be self-taught?
-        </li>
-      </ol>
+      <Grid item xs={12}>
+        <ol>
+          <li>
+            How is the “collective unconscious” revealed through artistic expression, and how can music be used to explore and integrate its archetypes within the conscious realm?
+          </li>
+          <li>
+            How to self-organize and promote a small, independent, electronic music performance?
+          </li>
+          <li>
+            How may singing skills be self-taught?
+          </li>
+        </ol>
+      </Grid>
       <h3>
         Outcomes:
       </h3>
-      <ol>
-        <li>
-          I can use music to acknowledge, understand, and integrate various character archetypes. 
-        </li>
-        <li>
-          I can organize, create, and manage the resources necessary to organize my own musical performance.
-        </li>
-        <li>
-          I can demonstrate audible improvement in vocal technique and ability.
-        </li>
-      </ol>
+      <Grid item xs={12}>
+        <ol>
+          <li>
+            I can use music to acknowledge, understand, and integrate various character archetypes. 
+          </li>
+          <li>
+            I can organize, create, and manage the resources necessary to organize my own musical performance.
+          </li>
+          <li>
+            I can demonstrate audible improvement in vocal technique and ability.
+          </li>
+        </ol>
+      </Grid>
       <p>
         The process of fulfilling these objectives/outcomes was organized according to Bloom's Taxonomy, a framework for
         building effective learning experiences. First, I gathered knowledge to understand my undertaking by reading and summarizing "The Archetypes and

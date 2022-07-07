@@ -6,7 +6,7 @@ import {Accordion, AccordionSummary, AccordionDetails} from "@mui/material"
 import aloneTime from '../audio/secondPost/aloneTime.wav';
 import practice from '../audio/secondPost/practice.m4a';
 
-const TextPost2 = () => {
+const VocalAnalysis2 = () => {
   return (
     <Grid item container xs={10} lg={8}>
       <div className="post">
@@ -14,7 +14,7 @@ const TextPost2 = () => {
           <AccordionSummary
           id="panel1-header" 
           aria-controls="panel1-content">
-            <h1>
+            <h1 className="header">
               Vocal Analysis #2: Alone Time
             </h1>
           </AccordionSummary>
@@ -72,4 +72,4 @@ const TextPost2 = () => {
   )
 }
 
-export default TextPost2
+export default VocalAnalysis2

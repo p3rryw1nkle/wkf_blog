@@ -4,7 +4,7 @@ import './blogPost.css'
 import Video from "../video/Video"
 import {Accordion, AccordionSummary, AccordionDetails} from "@mui/material"
 
-const TextPost2 = () => {
+const PerformanceVlog1 = () => {
   return (
     <Grid item container xs={10} lg={8}>
       <div className="post">
@@ -12,7 +12,7 @@ const TextPost2 = () => {
           <AccordionSummary
           id="panel1-header" 
           aria-controls="panel1-content">
-            <h1>
+            <h1 className="header">
               Performance Vlog #1: Compiling the Final Set
             </h1>
           </AccordionSummary>
@@ -40,4 +40,8 @@ const TextPost2 = () => {
   )
 }
 
-export default TextPost2
+PerformanceVlog1.displayName = "vlog";
+
+export default function Vlog1() {
+  return <PerformanceVlog1/>;
+}

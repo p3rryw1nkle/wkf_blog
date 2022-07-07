@@ -4,7 +4,7 @@ import './blogPost.css'
 import schema1 from '../images/schema1.jpg'
 import {Accordion, AccordionSummary, AccordionDetails} from "@mui/material"
 
-const TextPost1 = () => {
+const SchemaSketch1 = () => {
   return (
     <Grid item container xs={10} lg={8}>
       <div className="post">
@@ -67,4 +67,8 @@ const TextPost1 = () => {
   )
 }
 
-export default TextPost1
+SchemaSketch1.displayName = "schema";
+
+export default function Schema1() {
+  return <SchemaSketch1/>;
+}
