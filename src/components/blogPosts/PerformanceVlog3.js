@@ -4,7 +4,7 @@ import './blogPost.css'
 import Video from "../video/Video"
 import {Accordion, AccordionSummary, AccordionDetails} from "@mui/material"
 
-const PerformanceVlog2 = () => {
+const PerformanceVlog3 = () => {
   return (
     <Grid item container xs={10} lg={8}>
       <div className="post">
@@ -38,4 +38,4 @@ const PerformanceVlog2 = () => {
   )
 }
 
-export default PerformanceVlog2
+export default PerformanceVlog3

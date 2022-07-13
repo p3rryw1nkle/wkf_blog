@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import PerformanceVlog1 from "../blogPosts/PerformanceVlog1"
 import PerformanceVlog2 from '../blogPosts/PerformanceVlog2';
 import PerformanceVlog3 from '../blogPosts/PerformanceVlog3';
+import PerformanceVlog4 from '../blogPosts/PerformanceVlog4';
 import VocalAnalysis1 from "../blogPosts/VocalAnalysis1"
 import VocalAnalysis2 from '../blogPosts/VocalAnalysis2'
 import VocalAnalysis3 from '../blogPosts/VocalAnalysis3'
@@ -24,7 +25,7 @@ const getFilteredPosts = (sortBy, posts) => {
       filteredPosts = [<SchemaSketch1/>, <SchemaSketch2/>];
       break;
     case "vlog":
-      filteredPosts = [<PerformanceVlog1/>, <PerformanceVlog2/>, <PerformanceVlog3/>];
+      filteredPosts = [<PerformanceVlog1/>, <PerformanceVlog2/>, <PerformanceVlog3/>, <PerformanceVlog4/>];
       break;
     case "vocal":
       filteredPosts = [<VocalAnalysis1/>, <VocalAnalysis2/>, <VocalAnalysis3/>, <VocalAnalysis4/>];
@@ -39,7 +40,7 @@ const getFilteredPosts = (sortBy, posts) => {
 export default function Blog() {
   const posts = [<SchemaSketch1/>, <PerformanceVlog1/>, <VocalAnalysis1/>, 
   <PerformanceVlog2/>, <VocalAnalysis2/>, <PerformanceVlog3/>, 
-  <VocalAnalysis3/>,  <SchemaSketch2/>, <VocalAnalysis4/>]
+  <VocalAnalysis3/>,  <SchemaSketch2/>, <VocalAnalysis4/>, <PerformanceVlog4/>]
 
   const [sortBy, setSort] = useState('');
   const filteredPosts = getFilteredPosts(sortBy, posts);

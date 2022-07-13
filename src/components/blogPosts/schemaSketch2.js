@@ -25,9 +25,9 @@ const schemaSketch2 = () => {
             </p>
             <p>
               I changed the archetypes from symbols in the last sketch to actual characters because I think it's more representative of how the archetypes 
-              show up within the performance–as aspects of my character, rather than random symbols, that are displayed through different songs. I also thought 
-              it was fitting to take the characters from medieval manuscripts, because the evidence of certain types of characters repeating themselves 
-              throughout medieval texts, folklore, and fairytales is in itself a display of the archetypes.
+              show up within the performance–as characters rather than random symbols that are embodied through different songs. I also thought 
+              it was fitting to take the characters from medieval manuscripts, because the appearance of certain characters 
+              throughout medieval texts, folklore, and fairytales is in itself a display of the evidence and relevance of the archetypes.
             </p>
             <p>
               The characters are meant to follow the story arc of the performance, meaning each character is supposed to morph into and become the next, moving 

@@ -13,8 +13,7 @@ export default function About() {
         art, music, psychology, and philosophy and put together my first solo music performance with almost all original
         material. The Wizard, the King, & the Fool is a medieval theatre style psychological exploration, which inspired
         by the work of psychologist Carl Jung, uses music and AI generated art amongst other mediums to channel, 
-        witness, and integrate the 'archetypes' of the 'collective unconscious' within myself (and hopefully
-        inspire the audience to do the same).
+        witness, and integrate the 'archetypes' of the 'collective unconscious'.
       </p>
       <p>     
         As a part of this learning experience I was required to create a list of several objectives and outcomes. In the

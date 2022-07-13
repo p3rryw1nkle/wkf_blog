@@ -50,7 +50,7 @@ const SchemaSketch1 = () => {
               movement indicates towards the unconscious, while a rightward movement goes towards consciousness” (Jung, 320). The spiral 
               is representative of how the performance seeks to explore/channel the unconscious, and in doing so, integrate it into 
               consciousness. Furthermore, as the performance cycles through each archetype, their subconscious functionalities become 
-              more and more exposed and ultimately transcended, which is why the spiral grows outwards and is not just a circle.
+              more exposed and ultimately transcended, which is why the spiral grows outwards.
             </p>
             <p>
               The symbols that surround the head are meant to represent the motifs that are projected by the archetypes. Additionally, 
