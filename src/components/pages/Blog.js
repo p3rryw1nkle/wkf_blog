@@ -7,6 +7,7 @@ import VocalAnalysis1 from "../blogPosts/VocalAnalysis1"
 import VocalAnalysis2 from '../blogPosts/VocalAnalysis2'
 import VocalAnalysis3 from '../blogPosts/VocalAnalysis3'
 import VocalAnalysis4 from '../blogPosts/VocalAnalysis4'
+import VocalAnalysis5 from '../blogPosts/VocalAnalysis5'
 import SchemaSketch1 from "../blogPosts/SchemaSketch1"
 import SchemaSketch2 from "../blogPosts/schemaSketch2"
 import InputLabel from '@mui/material/InputLabel';
@@ -28,7 +29,7 @@ const getFilteredPosts = (sortBy, posts) => {
       filteredPosts = [<PerformanceVlog1/>, <PerformanceVlog2/>, <PerformanceVlog3/>, <PerformanceVlog4/>];
       break;
     case "vocal":
-      filteredPosts = [<VocalAnalysis1/>, <VocalAnalysis2/>, <VocalAnalysis3/>, <VocalAnalysis4/>];
+      filteredPosts = [<VocalAnalysis1/>, <VocalAnalysis2/>, <VocalAnalysis3/>, <VocalAnalysis4/>, <VocalAnalysis5/>];
       break;
     default:
       filteredPosts = posts;
@@ -40,7 +41,8 @@ const getFilteredPosts = (sortBy, posts) => {
 export default function Blog() {
   const posts = [<SchemaSketch1/>, <PerformanceVlog1/>, <VocalAnalysis1/>, 
   <PerformanceVlog2/>, <VocalAnalysis2/>, <PerformanceVlog3/>, 
-  <VocalAnalysis3/>,  <SchemaSketch2/>, <VocalAnalysis4/>, <PerformanceVlog4/>]
+  <VocalAnalysis3/>,  <SchemaSketch2/>, <VocalAnalysis4/>, <PerformanceVlog4/>,
+  <VocalAnalysis5/>]
 
   const [sortBy, setSort] = useState('');
   const filteredPosts = getFilteredPosts(sortBy, posts);
